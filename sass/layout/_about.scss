@@ -1,7 +1,3 @@
-/* about & team */
-.section.about {
-    padding-bottom: 94px;
-}
 
 .about-list {
     display: flex;
@@ -10,11 +6,11 @@
 
 
 /* about-overlay */
-.about-list-item {
+.about-list__item {
     position: relative;
 }
 
-.about-list-overlay {
+.about-list__overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
