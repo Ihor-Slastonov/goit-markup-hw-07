@@ -11,19 +11,19 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <!--Шапка сайта-->
-    <header class="page-header">
+    <header class="header">
         <div class="container main-nav">
             <nav class="main-nav">
-                <a lang="en" href="./index.html" class="logo link">Web<span class="logo-black">Studio</span></a>
+                <a lang="en" href="./index.html" class="logo link">Web<span class="header-logo-text">Studio</span></a>
                 <ul class="site-nav lists">
-                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li class="item"><a href="" class="link">Контакты</a></li>
+                    <li class="item"><a href="./index.html" class="site-nav-link link current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="site-nav-link link">Портфолио</a></li>
+                    <li class="item"><a href="" class="site-nav-link link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="auth-nav lists">
@@ -90,7 +90,7 @@
         <!--Чем мы занимаемся-->
         <section class="section about">
             <div class="container">
-                <h2 class="about-title">Чем мы занимаемся</h2>
+                <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="about-list lists">
                     <li class="about-list-item">
                         <img src="./images/box1.jpg" alt="разработка приложений" width="370">
@@ -110,12 +110,12 @@
         <!--Наша команда-->
         <section class="section-team">
             <div class="container">
-                <h2 class="team-title">Наша команда</h2>
+                <h2 class="title">Наша команда</h2>
                 <ul class="team-list lists">
                     <li class="item">
                         <img src="./images/ihor.jpg" alt="мужчина с бородой в красной рубашке" width="270" height="260">
                         <div class="team-list-text">
-                            <h3 class="title">Игорь Демьяненко</h3>
+                            <h3 class="team-list-title">Игорь Демьяненко</h3>
                             <p lang="en" class="text">Product Designer</p>
                             <ul class="social-list lists">
                                 <li class="social-list-item">
@@ -141,7 +141,7 @@
                     <li class="item">
                         <img src="./images/olga.jpg" alt="девушка в черном пиджаке" width="270" height="260">
                         <div class="team-list-text">
-                            <h3 class="title">Ольга Репина</h3>
+                            <h3 class="team-list-title">Ольга Репина</h3>
                             <p lang="en" class="text">Frontend Developer</p>
                             <ul class="social-list lists">
                                 <li class="social-list-item">
@@ -167,7 +167,7 @@
                     <li class="item">
                         <img src="./images/nikolay.jpg" alt="мужчина в голубой рубашке" width="270" height="260">
                         <div class="team-list-text">
-                            <h3 class="title">Николай Тарасов</h3>
+                            <h3 class="team-list-title">Николай Тарасов</h3>
                             <p lang="en" class="text">Marketing</p>
                             <ul class="social-list lists">
                                 <li class="social-list-item">
@@ -194,7 +194,7 @@
                         <img src="./images/mikola.jpg" alt="Мужчина с бородой в черной футболке" width="270"
                             height="260">
                         <div class="team-list-text">
-                            <h3 class="title">Михаил Ермаков</h3>
+                            <h3 class="team-list-title">Михаил Ермаков</h3>
                             <p lang="en" class="text">UI Designer</p>
                             <ul class="social-list lists">
                                 <li class="social-list-item">
@@ -223,7 +223,7 @@
         <!--Клиенты-->
         <section class="section-clients">
             <div class="container">
-                <h2 class="clients-title">Постоянные клиенты</h2>
+                <h2 class="title">Постоянные клиенты</h2>
                 <ul class="clients-list lists">
                     <li class="clients-item"><a href="/" class="clients-link"><svg class="clients-icon" width="106"
                                 height="60px">
@@ -259,7 +259,7 @@
     <footer class="footer">
         <div class="container">
             <div class="container-address">
-                <a lang="en" href="./index.html" class="logo-footer link">Web<span class="logo-white">Studio</span></a>
+                <a lang="en" href="./index.html" class="logo link">Web<span class="footer-logo-text">Studio</span></a>
                 <address class="address">
                     <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="address-list lists">
@@ -296,7 +296,7 @@
                     <label for="email" class="footer-form-text">Подпишитесь на рассылку</label>
                     <input class="footer-form-input" id="email" type="email" name="footer-user-email"
                         placeholder="E-mail" required>
-                    <button type="submit" class="footer-form-button btn">Подписаться<svg class="footer-form-icon"
+                    <button type="submit" class="btn">Подписаться<svg class="footer-form-icon"
                             width="24" height="24">
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg></button>
@@ -353,7 +353,7 @@
                             </svg></span> Соглашаюсь с рассылкой и принимаю &nbsp;<a href="/">Условия договора</a></label>
                 </div>
 
-                <button type="submit" class="modal-button btn">Отправить</button>
+                <button type="submit" class="btn">Отправить</button>
             </form>
 
         </div>
