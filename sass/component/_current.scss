@@ -1,6 +1,7 @@
 .current {
   position: relative;
   color: var(--accent-color);
+  
   &::after {
     content: '';
     position: absolute;
