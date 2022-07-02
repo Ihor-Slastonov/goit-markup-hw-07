@@ -141,6 +141,25 @@ body {
   background-color: #188ce8;
 }
 
+.filter-btns {
+  padding: 6px 22px;
+  border-radius: 4px;
+  border-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--section-second-color);
+  color: var(--title-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.filter-btns:hover, .filter-btns:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -308,25 +327,6 @@ body {
   opacity: 1;
 }
 
-.portfolio-btn {
-  padding: 6px 22px;
-  border-radius: 4px;
-  border-color: transparent;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  background-color: var(--section-second-color);
-  color: var(--title-text-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-btn:hover, .portfolio-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-}
-
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -341,12 +341,6 @@ body {
   display: flex;
   margin-left: 93px;
 }
-
-.site-nav__item + .site-nav__item,
-.auth-nav__item + .auth-nav__item {
-  margin-left: 50px;
-}
-
 .site-nav__link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -361,12 +355,16 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav__item + .site-nav__item,
+.auth-nav__item + .auth-nav__item {
+  margin-left: 50px;
+}
+
 /* auth nav */
 .auth-nav {
   display: flex;
   margin-left: auto;
 }
-
 .auth-nav__link {
   display: flex;
   padding-top: 32px;
@@ -381,7 +379,6 @@ body {
 .auth-nav__link:hover, .auth-nav__link:focus {
   color: var(--accent-color);
 }
-
 .auth-nav__icon {
   fill: currentColor;
   margin-right: 10px;
@@ -697,16 +694,16 @@ body {
   margin-left: 10px;
 }
 
-.buttons-list {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.buttons-list > .item {
+.filter_item {
   margin-left: 8px;
 }
-.buttons-list > .item:first-child {
+.filter_item:first-child {
   margin-left: 0;
 }
 

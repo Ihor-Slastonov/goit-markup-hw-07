@@ -1,11 +1,12 @@
-.buttons-list {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.buttons-list > .item {
+.filter_item {
   margin-left: 8px;
+
   &:first-child {
     margin-left: 0;
   }
