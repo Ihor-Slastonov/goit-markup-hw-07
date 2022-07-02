@@ -1,16 +1,12 @@
-
 .about-list {
-    display: flex;
-    justify-content: space-between;
-}
+  display: flex;
+  justify-content: space-between;
 
-
-/* about-overlay */
-.about-list__item {
+  &__item {
     position: relative;
-}
+  }
 
-.about-list__overlay {
+  &__overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -25,4 +21,5 @@
     text-transform: uppercase;
     color: var(--white-color);
     background-color: rgba(47, 48, 58, 0.8);
+  }
 }
